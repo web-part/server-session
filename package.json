@@ -1,0 +1,19 @@
+{
+  "name": "@webpart/server-session",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "micty",
+  "email": "mictydeng@qq.com",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/web-part/server-session.git"
+  },
+  "dependencies": {
+    "@definejs/file": "^1.0.0",
+    "@definejs/string": "^1.0.0"
+  }
+}
