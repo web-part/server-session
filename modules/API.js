@@ -7,7 +7,7 @@ module.exports = {
     start(app, id$session) {
 
         app.get('/session/:id', function (req, res, next) {
-            console.log(req.url)
+           
             let { id, } = req.params;
             let session = id$session[id];
 
@@ -31,8 +31,9 @@ module.exports = {
     },
 
 
-    test({ host, port, id, success, fail, error, }) {
-
+    test(opt) {
+        let { host, port, id, success, fail, error, } = opt;
+        
         let param = {
             'method': 'GET',
             'hostname': host,
