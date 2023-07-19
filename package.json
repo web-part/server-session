@@ -1,7 +1,7 @@
 {
   "name": "@webpart/server-session",
-  "version": "2.0.0",
-  "description": "",
+  "version": "2.0.1",
+  "description": "用于开发阶段的本地 web 服务器的会话部分。",
   "main": "index.js",
   "scripts": {},
   "keywords": [],
